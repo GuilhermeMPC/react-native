@@ -1,0 +1,43 @@
+	> ReactJS foi criado pelo facebook para suprir dificuldades com o MobileJS
+	> A ideia de componentes e de gerenciamento de estado que tornam o React diferenciado
+	> React Native veio da necessidade de utilizar o mesmo código para apps iOS e Android.
+	
+	> Diferenças entre React e React Native:
+		> React Native não pode utilizar elementos de DOM/HTML (Exemplo div, p, etc).
+			> São utilizadas tags do próprio RN
+		> React pode utilizar CSS, no React Native utiliza StyleSheet
+		> React Native tem flex box por Padrão
+		
+		
+====================================
+
+Criando o projeto de Cesta de mercado
+
+> Foi instalado o react via Expo, dessa forma é possível utilizar o mesmo código para android e iOS
+> É necessário instalar o NodeJS:
+		> npm install -g node
+> Instalar o expo:
+		> npm install -g expo-cli
+
+> Ao selecionar o local do projeto, executar no terminal:
+		> expo init nomeDoProjeto
+
+> Para executar o app, é necessario utilizar os comandos:
+
+	- cd orgs-cesta
+	- yarn start # you can open iOS, Android, or web from here, or run them directly with the commands below.
+	- yarn android
+	- yarn ios # requires an iOS device or macOS for access to an iOS simulator
+	- yarn web
+
+(Não sei porque no meu é utilizado o yarn, mas pode ser utilizado npm também)
+
+> É possível conectar seu aparelho android/ios com facilidade baixando o app Expo Go ou também é possível utilizar simuladores
+
+====================================
+
+Após configurar o ambiente
+
+> É importante importar a biblioteca do React no arquivo App.js para utilizar as tags jsx (<View>, <Text>)
+	> import React from 'react';
+
